@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "edb3cb2d-9260-473e-ad1f-90cb75608509",
+		"name": "test module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "34178764"
+	},
+	"item": [
+		{
+			"name": "getEmployee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/employees"
+			},
+			"response": []
+		},
+		{
+			"name": "postEmployee",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
